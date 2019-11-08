@@ -1,0 +1,11 @@
+@media screen and (min-width: 700px) {
+    .Map, .Map > div {
+        min-height: calc(100vh - 42px);
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .Map, .Map > div {
+        min-height: 400px;
+    }
+}

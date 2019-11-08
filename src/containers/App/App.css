@@ -1,0 +1,19 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    display: inline-block;
+    height: 40px;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+.App-header {
+    background-color: #282c34;
+    text-align: center;
+}
+
+Header {
+    color: white !important;
+}

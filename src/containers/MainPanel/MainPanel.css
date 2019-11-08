@@ -1,0 +1,12 @@
+.Panel-List {
+    margin-top: 10px !important;
+}
+
+.event-item {
+    padding-left: 15px !important;
+}
+
+.scrollable {
+    overflow: auto;
+    max-height: 300px;
+}
