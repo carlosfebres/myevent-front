@@ -7,16 +7,15 @@ import MapView from "../MapView/MapView";
 import MainPanel from "../MainPanel/MainPanel";
 import './App.css';
 
-export const SERVER_URL = "http://localhost:3000"
 
 class App extends Component {
 
     state = {
         mapCenter: {
-            lat: 12.2122,
-            lng: 54.954
+            lat: -33.45,
+            lng: -70.63
         },
-        mapZoom: 3,
+        mapZoom: 11,
         events: [],
         hashtags: [],
         action: "events"

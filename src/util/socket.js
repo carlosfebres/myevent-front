@@ -1,7 +1,7 @@
 import openSocket from 'socket.io-client';
 import {fromEvent} from 'rxjs';
 import {tap} from "rxjs/operators";
-import {SERVER_URL} from "../containers/App/App";
+import {SERVER_URL} from "./postData";
 
 export const socket = openSocket(SERVER_URL);
 

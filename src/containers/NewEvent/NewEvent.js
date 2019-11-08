@@ -1,6 +1,6 @@
 import React, {Component} from "react"
 import {Divider, Form, Header, Message, Segment} from "semantic-ui-react";
-import postData from "../../util/postData";
+import postData, {SERVER_URL} from "../../util/postData";
 import InputTags from "../../components/InputTags/InputTags";
 
 

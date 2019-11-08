@@ -1,3 +1,5 @@
+export const SERVER_URL = "http://localhost:3000"
+
 export default async function postData(url, data = {}) {
     const response = await fetch(url, {
         method: 'POST',
